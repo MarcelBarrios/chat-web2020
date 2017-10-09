@@ -1,0 +1,33 @@
+#login-screen {
+background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,1));  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .login-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    border: solid 2px;
+    border-color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .75s ease;
+    .label {
+      padding: 30px;
+    }
+
+    &:hover {
+      background-color: #448aff;
+      border-color: #448aff;
+      transform: scale(1.1);
+      color: #fff;
+    }
+  }
+}
